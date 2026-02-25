@@ -3,12 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\elshad\\Desktop\\Purple-Puzzle\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{115A734C-CF5B-4D62-9450-B2E58475AB4D}|Purple-Puzzle\\Purple-Puzzle.csproj|c:\\users\\elshad\\desktop\\purple-puzzle\\purple-puzzle\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{115A734C-CF5B-4D62-9450-B2E58475AB4D}|Purple-Puzzle\\Purple-Puzzle.csproj|solutionrelative:purple-puzzle\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{115A734C-CF5B-4D62-9450-B2E58475AB4D}|Purple-Puzzle\\Purple-Puzzle.csproj|c:\\users\\elshad\\desktop\\purple-puzzle\\purple-puzzle\\models\\work.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{115A734C-CF5B-4D62-9450-B2E58475AB4D}|Purple-Puzzle\\Purple-Puzzle.csproj|solutionrelative:purple-puzzle\\models\\work.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{115A734C-CF5B-4D62-9450-B2E58475AB4D}|Purple-Puzzle\\Purple-Puzzle.csproj|c:\\users\\elshad\\desktop\\purple-puzzle\\purple-puzzle\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{115A734C-CF5B-4D62-9450-B2E58475AB4D}|Purple-Puzzle\\Purple-Puzzle.csproj|solutionrelative:purple-puzzle\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/SEVDA_SQLEXPRESS/Purple_PuzzleDb/True/SqlTable/dbo.Works.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\elshad\\Desktop\\Purple-Puzzle\\Purple-Puzzle\\Migrations\\20260225165725_CreatedWorksTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Purple-Puzzle\\Migrations\\20260225165725_CreatedWorksTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{115A734C-CF5B-4D62-9450-B2E58475AB4D}|Purple-Puzzle\\Purple-Puzzle.csproj|c:\\users\\elshad\\desktop\\purple-puzzle\\purple-puzzle\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{115A734C-CF5B-4D62-9450-B2E58475AB4D}|Purple-Puzzle\\Purple-Puzzle.csproj|solutionrelative:purple-puzzle\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{115A734C-CF5B-4D62-9450-B2E58475AB4D}|Purple-Puzzle\\Purple-Puzzle.csproj|c:\\users\\elshad\\desktop\\purple-puzzle\\purple-puzzle\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{115A734C-CF5B-4D62-9450-B2E58475AB4D}|Purple-Puzzle\\Purple-Puzzle.csproj|solutionrelative:purple-puzzle\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{115A734C-CF5B-4D62-9450-B2E58475AB4D}|Purple-Puzzle\\Purple-Puzzle.csproj|c:\\users\\elshad\\desktop\\purple-puzzle\\purple-puzzle\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -22,43 +37,92 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dbo.Works [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/SEVDA_SQLEXPRESS/Purple_PuzzleDb/True/SqlTable/dbo.Works.sql",
+              "ToolTip": "dbo.Works [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-02-25T16:57:52.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20260225165725_CreatedWorksTable.cs",
+              "DocumentMoniker": "C:\\Users\\elshad\\Desktop\\Purple-Puzzle\\Purple-Puzzle\\Migrations\\20260225165725_CreatedWorksTable.cs",
+              "RelativeDocumentMoniker": "Purple-Puzzle\\Migrations\\20260225165725_CreatedWorksTable.cs",
+              "ToolTip": "C:\\Users\\elshad\\Desktop\\Purple-Puzzle\\Purple-Puzzle\\Migrations\\20260225165725_CreatedWorksTable.cs",
+              "RelativeToolTip": "Purple-Puzzle\\Migrations\\20260225165725_CreatedWorksTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T16:57:25.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\elshad\\Desktop\\Purple-Puzzle\\Purple-Puzzle\\Models\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Purple-Puzzle\\Models\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\elshad\\Desktop\\Purple-Puzzle\\Purple-Puzzle\\Models\\BaseEntity.cs",
+              "RelativeToolTip": "Purple-Puzzle\\Models\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T16:53:53.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Work.cs",
+              "DocumentMoniker": "C:\\Users\\elshad\\Desktop\\Purple-Puzzle\\Purple-Puzzle\\Models\\Work.cs",
+              "RelativeDocumentMoniker": "Purple-Puzzle\\Models\\Work.cs",
+              "ToolTip": "C:\\Users\\elshad\\Desktop\\Purple-Puzzle\\Purple-Puzzle\\Models\\Work.cs",
+              "RelativeToolTip": "Purple-Puzzle\\Models\\Work.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T16:53:37.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\elshad\\Desktop\\Purple-Puzzle\\Purple-Puzzle\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Purple-Puzzle\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\elshad\\Desktop\\Purple-Puzzle\\Purple-Puzzle\\Data\\AppDbContext.cs*",
-              "RelativeToolTip": "Purple-Puzzle\\Data\\AppDbContext.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\elshad\\Desktop\\Purple-Puzzle\\Purple-Puzzle\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Purple-Puzzle\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-25T16:41:57.89Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\elshad\\Desktop\\Purple-Puzzle\\Purple-Puzzle\\Program.cs",
               "RelativeDocumentMoniker": "Purple-Puzzle\\Program.cs",
-              "ToolTip": "C:\\Users\\elshad\\Desktop\\Purple-Puzzle\\Purple-Puzzle\\Program.cs*",
-              "RelativeToolTip": "Purple-Puzzle\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\elshad\\Desktop\\Purple-Puzzle\\Purple-Puzzle\\Program.cs",
+              "RelativeToolTip": "Purple-Puzzle\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-25T16:39:59.571Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\elshad\\Desktop\\Purple-Puzzle\\Purple-Puzzle\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Purple-Puzzle\\appsettings.Development.json",
               "ToolTip": "C:\\Users\\elshad\\Desktop\\Purple-Puzzle\\Purple-Puzzle\\appsettings.Development.json",
               "RelativeToolTip": "Purple-Puzzle\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-02-25T16:29:39.456Z",
               "EditorCaption": ""
