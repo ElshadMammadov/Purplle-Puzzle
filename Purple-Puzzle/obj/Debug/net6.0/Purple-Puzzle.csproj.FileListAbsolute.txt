@@ -29,3 +29,4 @@ C:\Users\elshad\Desktop\Purple-Puzzle\Purple-Puzzle\obj\Debug\net6.0\refint\Purp
 C:\Users\elshad\Desktop\Purple-Puzzle\Purple-Puzzle\obj\Debug\net6.0\Purple-Puzzle.pdb
 C:\Users\elshad\Desktop\Purple-Puzzle\Purple-Puzzle\obj\Debug\net6.0\Purple-Puzzle.genruntimeconfig.cache
 C:\Users\elshad\Desktop\Purple-Puzzle\Purple-Puzzle\obj\Debug\net6.0\ref\Purple-Puzzle.dll
+C:\Users\elshad\Desktop\Purple-Puzzle\Purple-Puzzle\obj\Debug\net6.0\Purple-Puzzle.sourcelink.json
