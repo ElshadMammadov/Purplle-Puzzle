@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37012.4 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Purple-Puzzle", "Purple-Puzzle\Purple-Puzzle.csproj", "{115A734C-CF5B-4D62-9450-B2E58475AB4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{115A734C-CF5B-4D62-9450-B2E58475AB4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{115A734C-CF5B-4D62-9450-B2E58475AB4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{115A734C-CF5B-4D62-9450-B2E58475AB4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{115A734C-CF5B-4D62-9450-B2E58475AB4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0B32C5A-661D-4CD9-90C0-D273B67E329B}
+	EndGlobalSection
+EndGlobal
