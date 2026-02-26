@@ -1,0 +1,20 @@
+﻿@model Work
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-5">
+            <div class="project-info-box mt-0">
+                <h5>Work DETAILS</h5>
+                <p class="mb-0">@Model.Description</p>
+            </div><!-- / project-info-box -->       
+
+        </div><!-- / column -->
+
+        <div class="col-md-7"> 
+            <img src="~/assets/img/@Model.Image" alt="project-image" class="rounded">
+            <div class="project-info-box mt-2">
+                <p><b>Title:</b> @Model.Title</p>              
+            </div><!-- / project-info-box -->
+        </div><!-- / column -->
+    </div>
+</div>
