@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Purple_Puzzle.Data;
 using Purple_Puzzle.Models;
+using Purple_Puzzle.ViewModels;
 
 namespace Purple_Puzzle.Controllers
 {
@@ -15,8 +16,16 @@ namespace Purple_Puzzle.Controllers
 
         public async Task<IActionResult> Index()
         {
-            List<Work> datas = await _context.Works.ToListAsync();    
-            return View(datas);
+            List<Work> works = await _context.Works.ToListAsync(); 
+            List<Category> categories = await _context.Categories.ToListAsync();
+
+            HomeVM response = new()
+            {
+                Works = works,
+                Categories = categories
+            };
+
+            return View(response);
         }
     }
 }

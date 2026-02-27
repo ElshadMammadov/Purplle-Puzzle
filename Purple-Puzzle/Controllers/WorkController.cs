@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Purple_Puzzle.Data;
 using Purple_Puzzle.Models;
+using System.Threading.Tasks;
 
 namespace Purple_Puzzle.Controllers
 {
@@ -12,15 +13,19 @@ namespace Purple_Puzzle.Controllers
         {
             _context = context;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            List<Work> works = await _context.Works.ToListAsync();
+            return View(works);
         }
 
-        public async Task<IActionResult> Detail(int id)
+        public async Task<IActionResult> Detail(int? id)
         {
-            Work work = await _context.Works.FirstOrDefaultAsync(m => m.Id == id);
+            if (id is null) return BadRequest();
+            Work work = await _context.Works.Include(m=>m.Category).FirstOrDefaultAsync(m => m.Id == id);
+            if (work is null) return NotFound();
             return View(work);
+
         }
     }
 }
