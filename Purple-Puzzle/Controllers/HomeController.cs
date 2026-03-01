@@ -13,7 +13,6 @@ namespace Purple_Puzzle.Controllers
         {
             _context = context;
         }
-
         public async Task<IActionResult> Index()
         {
             return View(new HomeVM
