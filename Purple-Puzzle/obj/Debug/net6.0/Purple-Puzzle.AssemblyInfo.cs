@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Purple-Puzzle")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd225a641798b002693c695de40a32597320580d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b576cf3754864c24ad48de0a9c299e5ea9d9740c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Purple-Puzzle")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Purple-Puzzle")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

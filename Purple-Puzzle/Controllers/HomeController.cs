@@ -16,16 +16,13 @@ namespace Purple_Puzzle.Controllers
 
         public async Task<IActionResult> Index()
         {
-            List<Work> works = await _context.Works.ToListAsync(); 
-            List<Category> categories = await _context.Categories.ToListAsync();
-
-            HomeVM response = new()
+            return View(new HomeVM
             {
-                Works = works,
-                Categories = categories
-            };
-
-            return View(response);
+                Works = await _context.Works.ToListAsync(),
+                Categories = await _context.Categories.ToListAsync(),
+                Sliders = await _context.Sliders.ToListAsync(),
+                SliderImage = await _context.SliderImages.FirstOrDefaultAsync()
+            });
         }
     }
 }
